@@ -30,15 +30,22 @@ export const skillsData = [
         type: "framework",
     },
     {
+        name: "DiscordJS",
+        gradient: `linear-gradient(
+                    135deg,
+                    #f35b594d,
+                    #F391534d,
+                    #FCDA5C4d,
+                    #5CFC9C4d,
+                    #5C6BFB4d,
+                    #B55BFD4d
+                )`,
+        type: "framework",
+    },
+    {
         name: "Git",
         color: "#DE4B36",
         // width: 60,
-        type: "tool",
-    },
-    {
-        name: "Supabase",
-        color: "#3ecf8e",
-        // width: 100,
         type: "tool",
     },
     {
@@ -52,6 +59,12 @@ export const skillsData = [
     rgba(26, 188, 254, 0.3)
   )`,
         // width: 80,
+        type: "tool",
+    },
+    {
+        name: "Supabase",
+        color: "#3ecf8e",
+        // width: 100,
         type: "tool",
     },
     {

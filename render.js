@@ -63,7 +63,7 @@ projectsContainer.innerHTML = projectsData
     .map(
         (project) => `
       <div class="card-item">
-        <div class='sp-btw'>
+      <div class='sp-btw'>
           <h4 class="imp">${project.name}</h4>
           <div class='tech'>${project.tech
               .map((sk) => renderBadge(sk, true))
@@ -80,7 +80,7 @@ projectsContainer.innerHTML = projectsData
             }
             ${
                 project?.viewLink
-                    ? `<a href="${project.viewLink}"><img src="svgs/popup.svg" alt="" /></a>`
+                    ? `<a href="${project.viewLink}"><img src="svgs/link.svg" alt="" /></a>`
                     : ""
             }
           </div>
@@ -96,7 +96,7 @@ expContainer.innerHTML = expData
       <div class="card-item">
         <div class='sp-btw'>
           <h4 class="imp">${item.as}</h4>
-          <p class='tech'>at ${item.at}</p>
+          ${item.at ? `<p class="tech">at ${item.at}</p>` : ""}
         </div>
         <p>${item.desc}</p>
         <div class="card-footer">
@@ -109,7 +109,7 @@ expContainer.innerHTML = expData
             }
             ${
                 item?.viewLink
-                    ? `<a href="${item.viewLink}"><img src="svgs/popup.svg" alt="" /></a>`
+                    ? `<a href="${item.viewLink}"><img src="svgs/link.svg" alt="" /></a>`
                     : ""
             }
           </div>

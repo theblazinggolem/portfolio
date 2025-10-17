@@ -1,9 +1,10 @@
 export const profileData = {
     name: "Blazing",
-    designation: "Software Developer",
+    designation: "Developer",
     graduationDate: 2026,
     experience: 2024,
     github: "https://github.com/theblazingolem",
-    x: "https://x.com/blzngdev",
-    about: `I'm a dev who enjoys building web projects to understand how things work. My goal is to write clear maintainable code and keep improving with every project I take on.`,
+    x: "https://x.com/blzngdotdev",
+    about: `I'm a web dev. I build projects to understand how things work. My goal is to write clear code and improve with every project.`,
+    // about: `I build websites & discord bots`,
 };
